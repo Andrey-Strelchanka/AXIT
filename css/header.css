@@ -1,0 +1,54 @@
+.header {
+    background-color: #000;
+}
+
+.header__column{
+    padding: 0 15px;
+    flex: 1 1 50%;
+}
+
+.header__column_2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__menu {
+    height: 100%;
+    width: 100%;
+}
+
+.menu-list {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.menu-list li{
+    flex: 1 1 20%;
+}
+
+.menu-link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-link:hover{
+    background-color: #EC7979;
+}
+
+.menu-link:active{
+    background-color: #AB4949;
+}
+
+.header__hamb {
+    display: none;
+}

@@ -1,0 +1,680 @@
+@media only screen and (max-width: 1024px) {
+    .main .container {
+        max-width: 1024px;
+    }
+
+    .main .banner .banner__container {
+        padding: 137px 20px 106px 20px;
+    }
+    
+    .banner__logo img {
+        max-width: 184px;
+        height: 75px;
+    }
+
+    .banner .banner__maintitle {
+        font-size: 36px;
+        line-height: 42px;
+        padding: 40px 0 0 0;
+    }
+
+    .banner .banner__maintitle:after {
+        padding-top: 40px;
+        max-width: 115px;
+    }
+
+    .main .subtitle{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .banner .banner__subtitle {
+        padding: 30px 0;
+    }
+
+    .banner .banner__button {
+        height: 50px;
+        max-width: 183px;
+    }
+
+    .banner .banner__form {
+        min-width: 400px;
+    }
+
+    .banner .form-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .main .social .social__container {
+        padding: 18px 15px 13px 15px;
+    }
+
+    .social .social__title {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 32px;
+    }
+    
+    .social__links-item img {
+        max-width: 64px;
+    }
+
+    .main .tabs .tabs__container {
+        padding: 50px 16px 0 16px;
+    }
+
+    .tabs .tabs__label {
+        width: 170px;
+        padding: 10px 55px;
+    }
+    
+    .tabs .tabs__label:nth-of-type(2),
+    .tabs .tabs__label:nth-of-type(3) {
+        width: 155px;
+    }
+
+    .tabs .tabs__column_1 {
+        margin: 0 0 0 60px;    
+    }
+
+    .tabs .tabs__title {
+        font-size: 24px;
+        line-height: 33px;
+        padding: 35px 0 75px 0;
+    }
+
+    .tabs .tabs__subtitle_2 {
+        padding: 20px 0 40px 0;
+    }
+
+    .tabs .tabs__button {
+        max-width: 230px;
+    }
+
+    .tabs__column_2 img {
+        max-width: 400px;
+    }
+
+    .main .about .about__container {
+        padding: 100px 16px 60px 16px;
+    }
+
+    .main .title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .main .title::after {
+        max-width: 143px;
+        padding-top: 52px;
+    }
+
+    .about .about__subtitle {
+        padding: 35px 0 35px 0;
+    }
+
+    .about__image img {
+        max-width: 147px;
+    }
+
+    .about .about__name {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 35px 0 40px 0;
+    }
+
+    .about .about__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .main .pricing .pricing__container {
+        padding: 100px 16px 50px;
+    }
+
+    .pricing .pricing__row {
+        margin: 0 -10px;
+    }
+
+    .pricing .pricing__column {
+        padding: 0 10px;
+    }
+
+    .pricing .pricing__subtitle {
+        padding: 35px 0 50px 0;
+    }
+
+    .pricing .pricing__name {
+        height: 53px;
+    }
+    
+    .pricing .pricing__amount {
+        height: 90px;
+    }
+    
+    .pricing .pricing__text {
+        height: 45px;
+    }
+    
+    .pricing .pricing__list li {
+        height: 45px;
+    }
+
+    .footer .footer__links-item {
+        margin: 0 28px 0 0;
+    }
+
+    .footer .footer__links-item img {
+        height: 45px;
+    }
+
+    .footer .footer__copyright {
+        padding: 40px 0 30px 0;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .main .reviews .reviews__container {
+        padding: 100px 15px 60px 15px;
+    }
+    
+    .main .reviews .reviews__subtitle {
+        padding: 35px 0;
+    }
+    
+    .reviews .reviews__text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .reviews__text::before {
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+    }
+    
+    .reviews .reviews__image {
+        padding: 0 10px 0 15px;
+    }
+
+    .reviews .reviews__image img {
+        height: 63px;
+    }
+    
+    .reviews .reviews__bottom-left {
+        padding: 0 10px;
+    }
+    
+    .reviews .reviews__name {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 12px 0 22px 0;
+    }
+    
+    .reviews .reviews__post {
+        font-size: 14px;
+        line-height: 16px;   
+    }
+
+    .main .banner2 .banner2__container {
+        padding: 100px 16px 50px;
+    }
+
+    .main .banner2 .banner2__subtitle {
+        padding: 35px 0;
+    }
+
+    .main .banner2 .banner2__button {
+        max-width: 320px;
+    }
+
+    .contact .contact__subtitle {
+        padding: 35px 0 80px 0;
+    }
+
+    .main .contact .contact__button {
+        max-width: 320px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .main .container {
+        max-width: 768px;
+    }
+
+    .menu-list, .header__menu {
+        position: fixed;
+        left: -100%;
+        top: 56px;
+    }
+
+    .header__logo {
+        height: 56px;
+    }
+
+    .header__menu {
+        width: 100%;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        background-color: #000;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s ease;    
+    }
+
+    .menu-list.active, .header__menu.active {
+        left: 0;
+        height: 450px;
+    }
+
+    .menu-list.active li{
+        max-height: 68px;
+    }
+
+    .header.active {
+        position: fixed;
+        width: 100%;
+    }
+
+    .header__hamb {
+        display: flex;
+        cursor: pointer;
+        height: 18px;
+        max-width: 24px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 15px;
+    }
+
+    .hamb-line {
+        display: block;
+        max-width: 24px;
+        width: 100%;
+        height: 3px;
+        transition: 0.3s ease;
+        background-color: #fff;
+    }
+
+    .header__hamb.active .hamb-line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .header__hamb.active .hamb-line:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+    }
+
+    .header__hamb.active .hamb-line:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+    }
+
+    .main .banner .banner__container {
+        padding: 85px 16px 50px 16px;
+    }
+
+    .banner .banner__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .banner .banner__container {
+        padding: 85px 16px 50px 16px;
+    }
+
+    .banner__logo {
+        display: none;
+    }
+
+    .banner .banner__maintitle {
+        padding: 0;
+        text-align: center;
+    }
+
+    .banner .banner__maintitle:after {
+        padding-top: 44px;
+        max-width: 134px;
+        margin: 0 auto;
+    }
+
+    .banner .banner__subtitle {
+        padding: 42px;
+        text-align: center;
+    }
+
+    .banner .banner__button {
+        margin: 0 auto 56px;
+        max-width: 288px;
+    }
+
+    .banner .banner__form {
+        max-width: 400px;
+        min-width: 288px;
+    }
+
+    .banner .form-title {
+        font-size: 14px;
+        line-height: 19px;
+        padding: 40px 0;
+    }
+
+    .banner .form-inputs{
+        padding: 0px 20px 50px;
+    }
+
+    .main .social .social__container {
+        padding: 46px 16px 44px 16px;
+    }
+
+    .social .social__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social .social__title {
+        text-align: center;
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 32px;
+    }
+
+    .social .social__subtitle {
+        text-align: center;
+        padding-bottom: 35px;
+    }
+
+    .social__links-item img {
+        max-width: 52px;
+    }
+
+    .main .tabs .tabs__container {
+        padding: 40px 16px 0 16px;
+    }
+
+    .tabs__column_2{
+        display: none;
+    }
+
+    .tabs .tabs__column_1 {
+        margin: 0;    
+    }
+
+    .tabs .tabs__title {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 35px 0 65px 0;
+        text-align: center;
+    }
+
+    .tabs .tabs__subtitle_1 {
+        text-align: center;
+    }
+
+    .tabs .tabs__subtitle_2 {
+        text-align: center;
+        padding: 20px 0 30px 0;
+    }
+
+    .tabs .tabs__button {
+        margin: 0 auto 30px;
+        max-width: 240px;
+    }
+
+    .main .pricing .pricing__container {
+        padding: 50px 16px 25px;
+    }
+
+    .pricing .pricing__title::after {
+        padding-top: 50px;
+    }
+
+    .pricing .pricing__subtitle {
+        padding: 25px 0;
+    }
+
+    .main .reviews .reviews__container {
+        padding: 35px 15px 60px 15px;
+    }
+
+    .main .reviews .reviews__title::after {
+        padding-top: 35px;
+    }
+
+    .main .reviews .reviews__subtitle {
+        padding: 25px 0;
+    }
+
+    .reviews .reviews__bottom {
+        margin-top: 60px;
+    }
+
+    .reviews .reviews__image img {
+        height: 57px;
+    }
+    
+    .reviews .reviews__name {
+        font-size: 14px;
+        line-height: 19px;
+        padding: 17px 0 22px 0;
+    }
+    
+    .reviews .reviews__post {
+        font-size: 13px;
+        line-height: 15px; 
+    }
+    
+}
+
+@media only screen and (max-width: 576px) {
+    .main .container {
+        max-width: 576px;
+    }
+
+    .social .social__links {
+        display: flex;
+        margin: 0 -8px;
+    }
+    
+    .social .social__links-item {
+        display: block;
+        margin: 0 8px;
+    }
+    
+    .social__links-item img {
+        max-width: 32px;
+    }
+
+    .tabs .tabs__label {
+        width: 80px;
+        padding: 10px 20px;
+    }
+    
+    .tabs .tabs__label:nth-of-type(2),
+    .tabs .tabs__label:nth-of-type(3) {
+        width: 80px;
+    }
+
+    .main .about .about__container {
+        padding: 50px 16px 50px 16px;
+    }
+
+    .main .title::after {
+        max-width: 134px;
+    }
+
+    .about .about__subtitle {
+        padding: 25px 0 50px 0;
+    }
+
+    .about .about__row {
+        flex-direction: column;
+    }
+
+    .about .about__text {
+        padding-bottom: 10px;
+    }
+
+    .main .pricing .pricing__container {
+        padding: 50px 16px 0;
+    }
+
+    .pricing .pricing__subtitle {
+        padding: 25px 0 0;
+    }
+
+    .pricing .pricing__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing .pricing__column {
+        min-width: 288px;
+        padding: 25px 0;
+        
+    }
+
+    .pricing .pricing__column_2, 
+    .pricing .pricing__column_3 {
+        padding-top: 0;
+        
+    }
+
+    .pricing .pricing__value {
+        pointer-events: none;
+    }
+
+    .footer .footer__links-item {
+        margin: 0 17px 0 0;
+    }
+
+    .footer .footer__links-item img {
+        height: 26px;
+    }
+
+    .footer .footer__copyright {
+        padding: 45px 0 45px 0;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .reviews .reviews__row {
+        position: relative;
+    }
+
+    .reviews .reviews__column {
+        display: none;
+    }
+
+    #reviews-btn-1:checked~#reviews-content-1,
+    #reviews-btn-2:checked~#reviews-content-2,
+    #reviews-btn-3:checked~#reviews-content-3 {
+    display: block;
+    }
+
+    .reviews__label {
+        border: 1px solid #86878B;
+        width:10px;
+        height:10px;
+        border-radius:20px;
+        display:inline-block;
+        cursor:pointer;
+        transition: 0.3s ease;
+    }
+
+    .reviews__label_1 {
+        position: absolute;
+        bottom: -30px;
+        left: 27.7%;
+    }
+
+    .reviews__label_2 {
+        position: absolute;
+        bottom: -30px;
+        left: 48.61%;
+    }
+
+    .reviews__label_3 {
+        position: absolute;
+        bottom: -30px;
+        right: 27.7%;
+    }
+
+    .reviews__btn:checked + label{
+        background-color: #86878B;
+    }
+
+    .main .banner2 .banner2__container {
+        padding: 50px 16px 60px;
+    }
+
+    .main .banner2 .banner2__subtitle {
+        padding: 20px 0 70px;
+    }
+
+    .main .banner2 .banner2__button {
+        max-width: 288px;
+    }
+
+    .main .contact .contact__container {
+        padding: 50px 16px 40px;
+    }
+
+    .contact .contact__subtitle {
+        padding: 25px 0 70px 0;
+    }
+
+    .main .contact .contact__row {
+        flex-direction: column;
+    }
+
+    .contact .contact__column_2 {
+        margin-top: 50px;
+    }
+
+    .contact .contact__textarea {
+        height: 200px;
+    }
+}
+    
+
+@media only screen and (max-width: 320px) {
+    .main .container {
+        max-width: 320px;
+    }
+
+    .social__links-item img {
+        max-width: 26px;
+    }
+
+    .about .about__title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .about .about__subtitle {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .pricing .pricing__name {
+        height: 45px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .pricing .pricing__amount {
+        height: 80px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .pricing .pricing__text, 
+    .pricing .pricing__list li {
+        height: 40px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+}

@@ -1,0 +1,85 @@
+@import url('nonedefaultstyles.css');
+@import url('fonts.css');
+@import url('header.css');
+@import url('media.css');
+@import url('banner.css');
+@import url('social.css');
+@import url('tabs.css');
+@import url('about.css');
+@import url('pricing.css');
+@import url('reviews.css');
+@import url('banner2.css');
+@import url('contact.css');
+@import url('footer.css');
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    margin: 0 -15px;
+}
+
+.title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000;
+    text-align: center;
+}
+
+.title::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #EC7979;
+    max-width: 170px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 270px;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.form-item input {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    width: 100%;
+}
+
+.form-item::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #BDBDBD;
+    max-width: 100%;
+    padding-top: 15px;
+}

@@ -1,0 +1,35 @@
+.footer {
+    background-color: #000;
+}
+
+.footer .footer__container {
+    padding: 35px 0 0 0;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: center;
+}
+.footer__links-item {
+    margin: 0 33px 0 0;
+}
+
+.footer__links-item img {
+    height: 53px;
+}
+
+.footer__links-item:last-child {
+    margin: 0;
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}

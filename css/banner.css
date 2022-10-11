@@ -1,0 +1,115 @@
+.banner {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/banner/banner-image.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: darken;
+}
+
+.banner .banner__container {
+    padding: 210px 15px 185px 15px;
+}
+
+.banner__column {
+    padding: 0 15px; 
+}
+
+.banner__column_1 {
+    flex: 1 1 58.333%;
+}
+
+.banner__column_2 {
+    flex: 1 1 41.666%;
+}
+
+.banner__maintitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    padding-top: 73px;
+    color: #FFFFFF;
+}
+
+.banner__maintitle:after {
+    content: '';
+    border-bottom: 1px solid #FFFFFF;
+    max-width: 170px;
+    display: block;
+    padding-top: 60px;
+}
+
+.banner .banner__subtitle {
+    padding: 42px 0;
+    color: #FFFFFF;
+}
+
+.banner__button {
+    border: 2px solid #fff;
+}
+
+.banner__button:hover {
+    border-color: #EC7979;
+    color: #EC7979;
+}
+
+.banner__button:active {
+    border-color: #AB4949;
+    background-color: #AB4949;
+    color: #fff;
+}
+
+.banner__form {
+    min-width: 400px;
+    max-width: 470px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    max-height: 100%;
+
+}
+.form-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #333333;
+    text-align: center;
+    padding: 37px 0 36px 0;
+}
+
+.form-title span {
+    color: #EC7979;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 50px 75px;
+}
+.banner__form-item {
+    padding-top: 35px;
+}
+
+.banner__form-item:first-child {
+    padding-top: 0;
+}
+
+.banner .form-button {
+    font-size: 15px;
+    line-height: 20px;
+    background-color: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    max-width: 100%;
+}
+
+.form-button:hover {
+   background-color: #AB4949; 
+}
+
+.form-button:active {
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}

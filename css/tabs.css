@@ -1,0 +1,99 @@
+.tabs {
+    background-color: #FFFFFF;
+}
+
+.tabs .tabs__container {
+    padding: 100px 15px 0 15px;
+}
+
+.tabs__btn {
+    display: none;
+}
+
+.tabs .tabs__row {
+    display: none;
+    border: 1px solid #C6CBCD;
+    margin: 0 0;
+}
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3 {
+    display: flex;
+}
+
+.tabs__label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 70px;
+    user-select: none;
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 1px;
+}
+
+.tabs__label:nth-of-type(2),
+.tabs__label:nth-of-type(3) {
+    width: 180px;
+    margin: 0 0;
+}
+
+.tabs__btn:checked+label {
+    border: 1px solid #C6CBCD;
+    border-bottom: 2px solid #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tabs__column_1 {
+    flex: 1 1 50%;
+    padding: 0 15px;
+    margin: 0 0 0 75px;
+
+}
+
+.tabs__column_2 {
+    flex: 1 1 41.666%;
+    padding: 0 0 0 30px;
+}
+
+.tabs__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    padding: 50px 0 80px 0;
+    
+}
+
+.tabs__subtitle {
+    color: #000000;  
+}
+
+.tabs__subtitle_2 {
+    padding: 25px 0 30px 0;
+}
+
+.tabs__button {
+    background-color: #EC7979;
+    border: none;
+}
+
+.tabs__button:hover {
+    background-color: #AB4949;
+}
+
+.tabs__button:active {
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
