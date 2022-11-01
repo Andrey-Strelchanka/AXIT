@@ -14,11 +14,11 @@
     padding: 0 15px; 
 }
 
-.banner__column_1 {
+.banner__column:first-of-type {
     flex: 1 1 58.333%;
 }
 
-.banner__column_2 {
+.banner__column:last-of-type {
     flex: 1 1 41.666%;
 }
 
@@ -102,7 +102,7 @@
     line-height: 20px;
     background-color: #EC7979;
     border-radius: 0px 0px 10px 10px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .form-button:hover {

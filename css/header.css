@@ -7,7 +7,7 @@
     flex: 1 1 50%;
 }
 
-.header__column_2 {
+.header__column:last-of-type {
     display: flex;
     align-items: center;
     justify-content: flex-end;

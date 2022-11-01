@@ -10,7 +10,7 @@
     padding: 0 15px;
 }
 
-.social__column_1 {
+.social__column:first-of-type {
     flex: 1 1 0.41666%;
 }
 
@@ -28,7 +28,7 @@
     color: #86878B;
 }
 
-.social__column_2 {
+.social__column:last-of-type {
     flex: 1 1 0.58333%;
     display: flex;
     align-items: center;

@@ -74,7 +74,7 @@
         width: 155px;
     }
 
-    .tabs .tabs__column_1 {
+    .tabs .tabs__column:first-of-type {
         margin: 0 0 0 60px;    
     }
 
@@ -92,8 +92,8 @@
         max-width: 230px;
     }
 
-    .tabs__column_2 img {
-        max-width: 400px;
+    .tabs__column:last-of-type img {
+        width: 100%;
     }
 
     .main .about .about__container {
@@ -277,6 +277,7 @@
     .header.active {
         position: fixed;
         width: 100%;
+        z-index: 999;
     }
 
     .header__hamb {
@@ -393,11 +394,11 @@
         padding: 40px 16px 0 16px;
     }
 
-    .tabs__column_2{
+    .tabs__column:last-of-type {
         display: none;
     }
 
-    .tabs .tabs__column_1 {
+    .tabs .tabs__column:first-of-type {
         margin: 0;    
     }
 
@@ -535,8 +536,8 @@
         
     }
 
-    .pricing .pricing__column_2, 
-    .pricing .pricing__column_3 {
+    .pricing .pricing__column:nth-of-type(2), 
+    .pricing .pricing__column:nth-of-type(3) {
         padding-top: 0;
         
     }
@@ -583,19 +584,19 @@
         transition: 0.3s ease;
     }
 
-    .reviews__label_1 {
+    .reviews__label:first-of-type {
         position: absolute;
         bottom: -30px;
         left: 27.7%;
     }
 
-    .reviews__label_2 {
+    .reviews__label:nth-of-type(2) {
         position: absolute;
         bottom: -30px;
         left: 48.61%;
     }
 
-    .reviews__label_3 {
+    .reviews__label:last-of-type {
         position: absolute;
         bottom: -30px;
         right: 27.7%;
@@ -629,7 +630,7 @@
         flex-direction: column;
     }
 
-    .contact .contact__column_2 {
+    .contact .contact__column:last-of-type {
         margin-top: 50px;
     }
 

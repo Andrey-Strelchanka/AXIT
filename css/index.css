@@ -52,12 +52,13 @@
 }
 
 .button {
+    background-color: inherit;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
-    max-width: 270px;
+    width: 270px;
     height: 60px;
     color: #fff;
     display: flex;
